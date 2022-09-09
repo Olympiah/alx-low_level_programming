@@ -13,15 +13,17 @@ int main(void)
    char lower;
    char upper;
 
-   for(lower = 'a'; lower <= 'z'; lower++){
-     putchar(tolower(lower));
-   };
+   for (lower = 'a'; lower <= 'z'; lower++)
+     {	   
+       putchar(tolower(lower));
+     };
 
-   for(upper = 'a'; upper <= 'z'; upper++){
-     putchar(toupper(upper));
-   };
+   for (upper = 'a'; upper <= 'z'; upper++)
+     {
+       putchar(toupper(upper));
+     };
 
    putchar('\n');
 
-   return(0);
+   return (0);
 }
