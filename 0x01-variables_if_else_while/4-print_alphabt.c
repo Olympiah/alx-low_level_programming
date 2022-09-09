@@ -10,18 +10,18 @@
 
 int main(void)
 {
+  char lower;
 
-	 char lower;
-
-	 for(lower='a'; lower <= 'z';lower++){
-	 
-	    if(lower != 'q' && lower != 'e'){
-	          putchar(tolower(lower));
-	    };
+  for (lower='a'; lower <= 'z'; lower++)
+  {	 
+    if (lower != 'q' && lower != 'e')
+    {
+      putchar(tolower(lower));
+    };
 		    
-	 };
+  };
          
-	 printf('\n');
-	 return(0);
+  putchar('\n');
+  return(0);
 
 }
