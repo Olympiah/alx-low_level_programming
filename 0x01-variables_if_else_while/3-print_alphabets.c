@@ -21,5 +21,7 @@ int main(void)
      putchar(toupper(upper));
    };
 
+   printf("\n");
+
    return(0);
 }
