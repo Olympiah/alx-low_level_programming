@@ -1,14 +1,20 @@
+#include <ctype.h>
 #include "main.h"
 
 /**
- * main - Entry Point
+ * _islower - function that checks for lowercase character.
  *
- * Return: Always 0 (success)
+ * @c: The character to be checked.
+ * Return: 1 if True, 0 if false
  */
 
-int main(void)
+int _islower(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	int x;
+
+	x = islower(c);
+
+	if (x)
 	{
 		return (1);
 	}
