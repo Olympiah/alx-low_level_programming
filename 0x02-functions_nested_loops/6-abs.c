@@ -1,17 +1,19 @@
+#include <stdio.h>
+#include <stdlib>
 #include "main.h"
 
 /**
  * _abs- the function for getting the absolute
- *@c is the parameter
- * Return: Always 0 (success)
+ *@c: the number to get the absolute.
+ * Return: Absolute value.
  */
 
 int _abs(int c)
 {
-	if (c > 0 || c ==  0)
+	int x;
+
+	x = abs(c)
+	if (x)
 	{
 		return (c);
-	}
-	else
-		return (c * -1);
 }
