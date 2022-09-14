@@ -6,12 +6,13 @@
 
 void times_table(void)
 {
-	int row, col , product;
-	 for (row = 0; row <= 9; row++)
-	 {
+	int row, col, product;
+
+	for (row = 0; row <= 9; row++)
+	{
 		 _putchar('0');
 
-		 for (col = 0; col <= 9; col++)
+		 for (col = 1; col <= 9; col++)
 		 {
 			 _putchar(',');
 			 _putchar('_');
@@ -24,7 +25,7 @@ void times_table(void)
 			 }
 			 else
 				 _putchar((product / 10) + '0');
-			 
+
 			 _putchar((product % 10) + '0');
 		 }
 		 _putchar('\n');
