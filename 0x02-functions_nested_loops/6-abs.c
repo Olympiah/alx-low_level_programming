@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry Point
- *
+ * _abs- the function for getting the absolute
+ *@c is the parameter
  * Return: Always 0 (success)
  */
 
