@@ -26,14 +26,18 @@ int main(void)
 			{
 				printf("Buzz");
 			}
-			else 
+			else
 			{
-				printf("%d", n);
+				printf("Buzz");
 			}
 		}
-		printf("\n");
-
-		return (0);
+		else
+		{
+			printf("%d\n", n);
+		}
 	}
+	printf("\n");
+
+	return (0);
 }
 
