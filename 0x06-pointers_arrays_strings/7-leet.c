@@ -20,7 +20,7 @@ char *leet(char *c)
 			if (c[i] == letter[j])
 			{
 				c[i] = new[j / 2];
-				x = 9;
+				j = 9;
 			}
 		}
 	}
