@@ -13,9 +13,9 @@ char *string_toupper(char *x)
 
 	for (i = 0; x[i] != '\0'; i++)
 	{
-		if (x[i] >= 'a' x <= 'z')
+		if (x[i] >= 'a' x[i] <= 'z')
 		{
-			x -= 32;
+			x[i] -= 32;
 		}
 	}
 
