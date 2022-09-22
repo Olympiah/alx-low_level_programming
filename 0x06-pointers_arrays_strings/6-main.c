@@ -10,26 +10,26 @@
 char *cap_string(char *str)
 {
 	int i = 0, j;
-	char sep[] = "\t\n,;.!?\"() {}";
+	char sep[] = "\t\n\,;.!?\"() {}";
 
-	while (*(str + i))
+	while (*(s + i))
 	{
-		if (*(str + i) >= 'a' && *(str + i) <= 'z')
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
 		{
 			if (i == 0)
-				*(str + i) -= 'a' - 'A';
+				*(s + i) -= 'a' - 'A';
 			else
 			{
 				for (j = 0; j <= 12; j++)
 				{
-					if (sep[j] == *(str + i - 1))
-						*(str + 1) -= 'a' - 'A';
+					if (sep[j] == *(s + i - 1))
+						*(s + 1) -= 'a' - 'A';
 				}
 			}
 		}
 		i++;
 	}
-	return (str);
+	return (s);
 }
 
 
