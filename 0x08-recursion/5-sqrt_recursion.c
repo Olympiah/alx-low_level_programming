@@ -26,7 +26,7 @@ int _sqrt_recursion(int n)
 
 int squareroot(int n, int m)
 {
-	if (n > x / 2)
+	if (n > m / 2)
 	{
 		return (-1);
 	}
