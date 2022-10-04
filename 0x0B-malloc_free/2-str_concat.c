@@ -40,6 +40,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		mem[join_i] = s1[i];
 	}
+
 	for (i = 0; s2[i]; i++)
 	{
 		mem[join_i] = s2[i];
