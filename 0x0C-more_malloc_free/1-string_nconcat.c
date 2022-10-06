@@ -16,7 +16,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 	{
-		p = 0;
+		s1 = "";
 	}
 	else
 	{
@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	if (s2 == NULL)
 	{
-		q = 0;
+		s2 = "";
 	}
 	else
 	{
@@ -52,9 +52,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	for (r = 0; r < q; r++)
 	{
-		mem[r + 1] = s2[r];
+		mem[r + p] = s2[r];
 	}
-	mem[i + q] = '\0';
+	mem[p + q] = '\0';
 
 	return (mem);
 }
