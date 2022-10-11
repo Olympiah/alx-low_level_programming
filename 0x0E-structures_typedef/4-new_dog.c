@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int _strlen(char *str);
-int _strcopy(char *dest, char *src);
+char _strcopy(char *dest, char *src);
 dog_t *new_dog(char *name, float age, char *owner);
 
 /**
@@ -30,7 +30,7 @@ int _strlen(char *str)
  * Return: pointer to destination string
  */
 
-int _strcopy(char *dest, char *src)
+char _strcopy(char *dest, char *src)
 {
 	int i = 0;
 
