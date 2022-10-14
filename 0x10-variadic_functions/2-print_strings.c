@@ -6,7 +6,7 @@
 /**
  * print_strings - prints strings,
  * followed by a new line
- * @separartor: string to be printed between
+ * @separator: string to be printed between
  * @n: number of strings passed
  * Return: void
  */
